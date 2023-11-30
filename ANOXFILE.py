@@ -193,17 +193,14 @@ def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
 #------------------[ LOGO-LAKNAT ]-----------------#
 logo =""" 
-
-
-       d8888 888b    888  .d88888b. Y88b   d88P 
-      d88888 8888b   888 d88P" "Y88b Y88b d88P  
-     d88P888 88888b  888 888     888  Y88o88P   
-    d88P 888 888Y88b 888 888     888   Y888P    
-   d88P  888 888 Y88b888 888     888   d888b    
-  d88P   888 888  Y88888 888     888  d88888b   
- d8888888888 888   Y8888 Y88b. .d88P d88P Y88b  
-d88P     888 888    Y888  "Y88888P" d88P   Y88b 
-                                                                                                                                                                                    
+\033[1;32m       d8888 888b    888  .d88888b. Y88b   d88P 
+\033[1;35m      d88888 8888b   888 d88P" "Y88b Y88b d88P  
+\033[1;37m     d88P888 88888b  888 888     888  Y88o88P   
+\033[1;31m    d88P 888 888Y88b 888 888     888   Y888P    
+\033[1;32m   d88P  888 888 Y88b888 888     888   d888b    
+\033[1;31m d88P   888 888  Y88888 888     888  d88888b   
+\033[1;37m d8888888888 888   Y8888 Y88b. .d88P d88P Y88b  
+\033[1;35md88P     888 888    Y888  "Y88888P" d88P   Y88b                                                                                                                                                                                     
 ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
 ║\33[0;41m        [ WORKING ONLY MOBILE DATA ]         \033[0;92m║
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
@@ -216,14 +213,11 @@ d88P     888 888    Y888  "Y88888P" d88P   Y88b
 \033[1;32m[•] ━▷ \033[1;33mGIRLFRIEND   ◈✙◈  \033[1;33mSINGLE
 \033[1;37m[•] ━▷ \033[1;32mWHATSAPP.    ◈✙◈  \033[1;37m+918302788872
 \033[1;37m(•)●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;35m๑۩♡۩๑\033[1;32m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●💔\n\n"""  
-
 os.system('clear')
 print(logo)
-os.system('espeak -a 300 " Your,   Real,  Name,"')
 uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
 pass
- 
- 
+  
 def login():
     try:
         token = open('.token.txt','r').read()
@@ -673,7 +667,7 @@ def crackfree(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[10;92m[{time.strftime("%H:%M")}-ANOX-Ok] {idf} | {pw} ')
+                print(f'\r\33[1;32m[{time.strftime("%H:%M")}-ANOX-Ok] {idf} | {pw} ')
                 open('/sdcard/anoxok.txt','a').write(idf+'|'+pw+'|'+kuki+'n')
                 break
                 
